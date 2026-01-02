@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net48;net8.0</TargetFrameworks>
+    <TargetFrameworks>net5.0;net6.0</TargetFrameworks>
     <Platforms>x86;x64;AnyCPU</Platforms>
     <OutputType>Library</OutputType>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
@@ -16,10 +16,10 @@
     <RepositoryUrl>https://github.com/Piotrekol/ProcessMemoryDataFinder/tree/master/OsuMemoryDataProvider</RepositoryUrl>
     <title>OsuMemoryDataProvider</title>
     <Summary>Read osu! game memory values based on pre-made memory signatures(patterns)</Summary>
-    <Version>0.11.1</Version>
+    <Version>0.9.0</Version>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>9.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject />
